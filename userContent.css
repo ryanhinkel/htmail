@@ -1,0 +1,51 @@
+@-moz-document domain(mail.google.com) {
+
+  body * {
+    font-family: "Avenir", sans-serif !important;
+    line-height: 2;
+  }
+
+  #gbar {
+    display:none !important;
+  }
+
+  .gbh {
+    display:none !important;
+  }
+
+  a: {
+    color: #0e68b2 !important;
+  }
+
+  table tr td {
+    padding: .4em 0 !important;
+    background-color: #fff !important;
+  }
+
+  body > table:first-of-type > tbody > tr:first-of-type {
+    display:none !important;
+  }
+
+  body > table:first-of-type > tbody > tr:nth-of-type(1) > td > table > tbody > tr > td:last-of-type {
+    display:none !important;
+  }
+
+  body > table:first-of-type > tbody > tr:nth-of-type(2) > td > table > tbody > tr > td:first-of-type input:nth-of-type(3) {
+    display:none !important;
+  }
+
+  body > table:first-of-type > tbody > tr:last-of-type {
+    display:none !important;
+  }
+
+  .ts {
+    height: 2em !important;
+  }
+
+  .msg {
+    max-width: 40em;
+    font-size: 1.3em;
+  }
+}
+
+
