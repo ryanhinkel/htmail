@@ -3,6 +3,13 @@
 Firefox user stylesheets for the `mail.google.com` domain.
 
 ## To use
-`git clone <this-repo>`
-`cd <local-repo>`
-`cp ./userContent.css <firefox-profile-directory>/chrome/userContent.css`
+First, learn the name of your Firefox profile directory by visiting `about:support` in Firefox and looking for "Profile Folder"
+
+Then:
+```
+git clone git@github.com:ryanhinkel/htmail.git
+cd htmail
+mkdir <firefox-profile-directory>/chrome
+cp ./userContent.css <firefox-profile-directory>/chrome/userContent.css
+```
+
